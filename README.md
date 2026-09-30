@@ -342,9 +342,9 @@ git push -u origin otchet
 
 ```text
 git --version
-git config --global user.name "Фамилия И.О."
-git config --global user.email "email@gmail.com"
-git config --global --list
+git config --local user.name "Фамилия И.О."
+git config --local user.email "email@gmail.com"
+git config --local --list
 git clone https://github.com/AltemirGog/LR6.git
 cd LR6
 git status
